@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.5</version>
+		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>application.task.management</groupId>
-	<artifactId>Task-Management-Application</artifactId>
+	<groupId>com</groupId>
+	<artifactId>application.task.management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Task-Management-Application</name>
 	<description>Demo project for Spring Boot</description>
@@ -26,15 +26,23 @@
 		<tag/>
 		<url/>
 	</scm>
+	<packaging>jar</packaging>
+	<name>Task Management Application</name>
+	<description>Task Management Application</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
