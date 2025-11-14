@@ -1,4 +1,4 @@
-package com.application.task.management.persistence.model;
+package application.task.management.persistence.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

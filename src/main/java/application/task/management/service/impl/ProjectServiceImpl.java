@@ -1,8 +1,8 @@
-package com.application.task.management.service.impl;
+package application.task.management.service.impl;
 
-import com.application.task.management.persistence.model.Project;
-import com.application.task.management.persistence.repository.IProjectRepository;
-import com.application.task.management.service.IProjectService;
+import application.task.management.persistence.model.Project;
+import application.task.management.persistence.repository.IProjectRepository;
+import application.task.management.service.IProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.application.task.management.service;
+package application.task.management.service;
 
-import com.application.task.management.persistence.model.Project;
+import application.task.management.persistence.model.Project;
 
 import java.util.Optional;
 

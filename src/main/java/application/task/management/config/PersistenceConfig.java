@@ -1,6 +1,6 @@
-package com.application.task.management.config;
+package application.task.management.config;
 
-import com.application.task.management.persistence.repository.impl.ProjectRepositoryImpl;
+import application.task.management.persistence.repository.impl.ProjectRepositoryImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

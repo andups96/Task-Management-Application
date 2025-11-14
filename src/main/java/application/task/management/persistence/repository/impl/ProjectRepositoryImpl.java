@@ -1,7 +1,7 @@
-package com.application.task.management.persistence.repository.impl;
+package application.task.management.persistence.repository.impl;
 
-import com.application.task.management.persistence.model.Project;
-import com.application.task.management.persistence.repository.IProjectRepository;
+import application.task.management.persistence.model.Project;
+import application.task.management.persistence.repository.IProjectRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
